@@ -17,4 +17,14 @@ module.exports = function(app) {
             if (err) throw(err);
           });
     }
+    
+    if(process.env.PASSWORD == 'true') {
+        //data sources
+        var Clientes = app.models.Clientes;
+
+          Clientes.generatePasswords(function(err) {
+            if (err) throw(err);
+          });
+    }
+
 };
