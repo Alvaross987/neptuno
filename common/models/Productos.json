@@ -165,7 +165,7 @@
     "favoritos": {
       "type": "hasMany",
       "model": "Favoritos",
-      "foreignKey": "clienteId"
+      "foreignKey": "productoId"
     },
     "clientesFav": {
       "type": "hasMany",
