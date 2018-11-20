@@ -161,6 +161,17 @@
       "type": "hasMany",
       "model": "Devoluciones",
       "foreignKey": ""
+    },
+    "favoritos": {
+      "type": "hasMany",
+      "model": "Favoritos",
+      "foreignKey": "clienteId"
+    },
+    "clientesFav": {
+      "type": "hasMany",
+      "model": "Clientes",
+      "foreignKey": "productoId",
+      "through": "Favoritos"
     }
   },
   "acls": [],

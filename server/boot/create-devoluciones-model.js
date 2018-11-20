@@ -1,6 +1,6 @@
 module.exports = function(app) {
     
-    if(process.env.AUTOMIGRATE == 'true') {
+    if(process.env.AUTOMIGRATE == 'devoluciones') {
         //data sources
         var mysqlDs = app.dataSources.mysqlDs;
         var db = app.dataSources.db;

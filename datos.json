@@ -1,14 +1,16 @@
 {
   "ids": {
     "User": 1,
-    "AccessToken": 3,
+    "AccessToken": 5,
     "ACL": 1,
     "RoleMapping": 1,
     "Role": 1
   },
   "models": {
     "User": {},
-    "AccessToken": {},
+    "AccessToken": {
+      "DYSLqaZKxUlF1pmw3hGeWa2uFnkUJtdWdXj2I4Y09RiA3lEiyVdkddk4hAXSoZGv": "{\"id\":\"DYSLqaZKxUlF1pmw3hGeWa2uFnkUJtdWdXj2I4Y09RiA3lEiyVdkddk4hAXSoZGv\",\"ttl\":1209600,\"created\":\"2018-11-20T10:22:54.108Z\",\"userId\":\"ANATR\"}"
+    },
     "ACL": {},
     "RoleMapping": {},
     "Role": {}

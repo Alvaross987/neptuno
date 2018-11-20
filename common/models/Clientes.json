@@ -200,6 +200,17 @@
       "type": "hasMany",
       "model": "Pedidos",
       "foreignKey": "IdCliente"
+    },
+    "favoritos": {
+      "type": "hasMany",
+      "model": "Favoritos",
+      "foreignKey": "productoId"
+    },
+    "productosFav": {
+      "type": "hasMany",
+      "model": "Productos",
+      "foreignKey": "clienteId",
+      "through": "Favoritos"
     }
   },
   "acls": [],
